@@ -260,3 +260,36 @@ ul li a:hover{
  color: #627382;
  margin-top: 16px;
 }
+
+
+
+
+/* last part */
+.last-part{
+    width: 1300px;
+    max-width: 1600px;
+    padding: 80px ;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+    background-color: #0a3c70;
+}
+
+.last-work{
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-foot h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+} 
+
+
+.last{
+    font-size: 16px;
+    color: #FAFAFA;
+    padding: 194px 20px 0;
+}
