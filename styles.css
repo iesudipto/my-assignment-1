@@ -6,9 +6,9 @@
 
 .font-inter {
   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
 }
 
 /* header part */
@@ -188,3 +188,75 @@ ul li a:hover{
 }
 
 
+
+#knowledge {
+ display: flex;
+ align-items: center;
+ /* max-width: 90%; */
+ margin: auto;
+ padding: 120px;
+ gap: 60px;
+}
+#knowledge .knowledge-text span {
+ color: #30b868;
+ font-size: 16px;
+ font-weight: 500;
+ text-transform: uppercase;
+}
+#knowledge .knowledge-text h1 {
+ font-style: Bold;
+ font-size: 48px;
+ font-weight: 700;
+ line-height: 58px;
+ margin-bottom: 16px;
+ margin-top: 16px;
+ text-align: left;
+ max-width: 700px;
+ text-transform: capitalize;
+}
+#knowledge .knowledge-text p {
+ font-size: 16px;
+ text-align: left;
+ line-height: 20px;
+ max-width: 700px;
+ margin-bottom: 40px;
+}
+#knowledge .knowledge-text .task {
+ margin-bottom: 16px;
+}
+#knowledge .knowledge-text .task h4 {
+ display: inline-block;
+ vertical-align: top;
+ font-size: 16px;
+ margin-left: 4px;
+}
+#early-access {
+ padding: 0 120px 120px;
+ text-align: center;
+}
+#early-access .early-access-section {
+ background-color: #f7f6f2;
+  padding: 80px 40px;
+ display: flex;
+ flex-direction: column;
+ gap: 24px;
+ max-height: 384px;
+ border-radius: 12px;
+}
+.early-access-section .early-text h1 {
+ font-size: 40px;
+ font-weight: bold;
+ margin-bottom: 16px;
+ text-transform: capitalize;
+}
+.early-access-section .early-text p {
+ font-size: 16px;
+ line-height: 24px;
+ color: #627382;
+}
+.early-access-section .early-button p {
+ font-size: 16px;
+ line-height: 24px;
+ color: #627382;
+ margin-top: 16px;
+}
