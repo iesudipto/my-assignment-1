@@ -120,3 +120,71 @@ ul li a:hover{
     color: rgb(83, 82, 82);
     background-color: rgba(255, 255, 255, 0.753);
 }
+#card-section {
+  padding: 0 120px;
+  /* width: 90%;
+  max-width: 1360px; */
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+
+#card-section .text-section h1 {
+  font-style: Bold;
+  font-size: 48px;
+  line-height: 58px;
+  margin-top: 48px;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+
+#card-section .text-section p {
+  color: #627382;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+#card-section .card-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+#card-section .card-content .card {
+  padding: 24px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.063);
+  max-width: 253px;
+}
+
+.card-content .card .card-img {
+  width: 60px;
+  height: 60px;
+  background-color: #f95555;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 40px;
+}
+.card .card-img img {
+  width: 32px;
+  height: 32px;
+}
+
+.card-content .card h4 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+.card-content .card p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+
